@@ -1,4 +1,4 @@
-package main
+package util
 
 import (
 	"bufio"
@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func readFileContents(fileName string) []string {
+func ReadFileContents(fileName string) []string {
 	readFile, err := os.Open(fileName)
 	if err != nil {
 		fmt.Println(err)

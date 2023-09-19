@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	util "github.com/byorn/AdventOfCode/util"
 	"testing"
 )
 
@@ -16,7 +17,7 @@ func TestDay1(t *testing.T) {
 }
 
 func TestReadFile(t *testing.T) {
-	lines := readFileContents("day1.txt")
+	lines := util.ReadFileContents("day1.txt")
 	fmt.Println(lines)
 }
 

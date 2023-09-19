@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-
 }
 func getMaximumInGroup(elfs []string) int {
 	var maximumFromAllGroups int
